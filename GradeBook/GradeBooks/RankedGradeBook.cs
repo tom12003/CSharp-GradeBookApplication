@@ -20,11 +20,11 @@ namespace GradeBook.GradeBooks {
 
 			if (grades[threshold - 1] <= averageGrade) {
 				return 'A';
-			} else if (grades[threshold - 1 * 2] <= averageGrade) {
+			} else if (grades[(threshold-1) * 2] <= averageGrade) {
 				return 'B';
-			} else if (grades[threshold - 1 * 3] <= averageGrade) {
+			} else if (grades[(threshold - 1) * 3] <= averageGrade) {
 				return 'C';
-			} else if (grades[threshold - 1 * 4] <= averageGrade) {
+			} else if (grades[(threshold - 1) * 4] <= averageGrade) {
 				return 'D';
 			}
 
